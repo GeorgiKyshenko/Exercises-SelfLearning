@@ -15,6 +15,7 @@ public class WelcomePage {
         welcome.setText("Hello " + userID + " !");
 
         frame.add(welcome);
+        frame.setTitle("Your Account");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(450, 450);
         frame.setVisible(true);
