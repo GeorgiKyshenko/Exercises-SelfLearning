@@ -2,8 +2,8 @@ package Testing_CopyContructor;
 
 public class Employee {
 
-    String name;
-    int age;
+    private String name;
+    private int age;
 
     public Employee() {
         name = "Petko";
@@ -17,5 +17,21 @@ public class Employee {
 
     public static Employee copy() {
         return new Employee();
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public String getName() {
+        return name;
     }
 }
