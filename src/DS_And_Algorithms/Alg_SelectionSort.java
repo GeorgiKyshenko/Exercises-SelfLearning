@@ -3,7 +3,7 @@ package DS_And_Algorithms;
 public class Alg_SelectionSort {
     public static void main(String[] args) {
 
-        int[] array = {2, 5, 1, 7, 9, 3, 4, 6, 8};
+        int[] array = {5, 2, 1, 7, 9, 3, 4, 6, 8};
 
         selectionSort(array);
 
